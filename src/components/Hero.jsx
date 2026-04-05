@@ -14,29 +14,37 @@ export const Hero = () => {
     <Arrow />
     </div>
     </div>
-    <div>
-        The Professional Network <br />
-        for builders to show & tell
+    <div className="font-hero mt-10 text-5xl">
+        <span className='italic'>The Professional Network </span><br />
+        <div className='mt-2'>
+        <span>for builders to show & tell!</span>
+        </div>
     </div>
-    <div className='font-display'>
-        Showcase your work, launch project, find jons, and connnect with <br />
-        the most(in)credible people
+    <div className='font-display mt-5'>
+        <div className='text-gray-600 text-lg cursor-pointer'>
+        <span className='hover:text-green-400'> Showcase your work, </span> 
+        <span className='hover:text-green-400'>launch project,</span> 
+        <span className='hover:text-green-400'>find jobs</span>, and connnect with the</div> 
+
+        <div className='flex justify-center'>
+         <span className='items-center text-lg text-gray-800'>most (in)credible people</span>
+        </div>
     </div>
-    <div className='flex items-center border border-[#E4E3E9] p-3 px- py-4 rounded-xl w-full max-w-md'>
+    <div className='flex items-center border border-[#E4E3E9] p-3 px- py-3 rounded-xl w-full max-w-md mt-11 shadow-lg'>
     <div className='flex  items-center justify-around'>
     <div className='mt-1'>
     <Peerlist />
     </div>
     <div>
     <span className='font-semibold text-lg'>peerlist.io/</span> 
-    <input className='outline-none font-semibold text-lg' type="text" placeholder='username' />
+    <input className='outline-none text-lg' type="text" placeholder='username' />
     </div>
     </div>
     <div className='bg-[#878B94] rounded-xl p-1 ml-15'>
     <ArrowRight />
     </div>
     </div>
-    <div className='font-display'>
+    <div className='font-display text-[#828997] mt-4 text-sm'>
         Claim your username before It's too late!
     </div>
   </div>

@@ -15,10 +15,10 @@ export const Navbar = () => {
     </div>
     <div className="flex justify justify-between gap-2 ">
         <div>
-           <button className="bg-white  text-black font-semibold px-4 py-1 rounded-xl border text-sm border-[#E4E3E9] cursor-pointer">Log in</button>
+           <button className="bg-white  text-black font-semibold px-4 py-1 rounded-xl border text-sm border-[#E4E3E9] cursor-pointer shadow-sm">Log in</button>
         </div>
         <div>
-        <button className="bg-[#00AA45] px-4 py-1 rounded-xl text-white font-semibold border text-sm border-[#006F00] cursor-pointer"> Create Profile</button>
+        <button className="bg-[#00AA45] px-4 py-1 rounded-xl text-white font-semibold border text-sm border-[#006F00] cursor-pointer shadow-sm"> Create Profile</button>
         </div>
     </div>
     </div>
